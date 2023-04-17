@@ -1,11 +1,21 @@
 const exportGlobal = () => {
 	//prompt factory
-	const json = {
+	const experience = {
 		"a":1,
 		"b":2,
 		"c":3
 	}
-	return json
+	const yoe = 4
+	const universityYOE = {
+		"a":1,
+		"b":2,
+		"c":3
+	}
+	return {
+		experince,
+		yoe,
+		universityYOE
+	}
 
 	
 }
